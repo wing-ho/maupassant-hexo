@@ -1,4 +1,4 @@
-disqus: ## Your disqus_shortname, e.g. username
+disqus: wing-ho ## Your disqus_shortname, e.g. username
 uyan: ## Your uyan_id. e.g. 1234567
 livere: ## Your livere data-uid, e.g. MTAyMC8zMDAxOC78NTgz
 changyan: ## Your changyan appid, e.g. cyrALsXc8
@@ -57,8 +57,8 @@ donate:
   paypal_url: ## Paypal URL, e.g. https://www.paypal.me/tufu9441
 post_copyright:
   enable: false ## If you want to display the copyright info after each post, please set the value to true and fill the following items on your need.
-  author: ## Your author name, e.g. tufu9441
-  copyright_text: ## Your copyright text, e.g. The author owns the copyright, please indicate the source reproduced.
+  author: wing ## Your author name, e.g. tufu9441
+  copyright_text: Copyright © 2018 Wing ## Your copyright text, e.g. The author owns the copyright, please indicate the source reproduced.
 
 menu:
   - page: home
@@ -67,6 +67,9 @@ menu:
   - page: archive
     directory: archives/
     icon: fa-archive
+  - page: books
+    directory: books/
+    icon: fa-book
   - page: about
     directory: about/
     icon: fa-user
@@ -83,12 +86,15 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
   - links
 
 links:
-  - title: site-name1
-    url: http://www.example1.com/
-  - title: site-name2
-    url: http://www.example2.com/
-  - title: site-name3
-    url: http://www.example3.com/
+  - title: 本人CSDN博客 
+    url: https://blog.csdn.net/genrong
+  - title: 云风
+    url: https://blog.codingnow.com
+  - title: 阮一峰
+    url: http://www.ruanyifeng.com/blog
+  - title: 王垠
+    url: http://www.yinwang.org
+
 
 timeline:
   - num: 1
