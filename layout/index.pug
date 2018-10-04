@@ -27,20 +27,14 @@ block content
         .post-content
           != post.excerpt
       else if post.content
-        - var br = 0
-        - for (var i = 0; i < 5; ++i) {
-          - br = post.content.indexOf('\n',br+1)
-          if br<0
-            - break
-          if br >150
-            - break
-        - }
+        - var start = post.content.indexOf('<p>')
+        - br = post.content.indexOf('</p>',start)
         if br < 0
           .post-content
             != post.content
         else
           .post-content
-            != post.content.substring(0, br)
+            != post.content.substring(start, br+4)
       p(class='readmore')
         a(href=url_for(post.path))= __('Readmore')
 
