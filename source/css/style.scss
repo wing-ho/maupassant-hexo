@@ -1726,29 +1726,3 @@ em.search-keyword {
         margin: 8px 0;
     }
 }
-#table-of-contents {
-  line-height: 1em;
-  float: right;
-  h2 {
-    font-weight: normal;
-    padding-top: 0;
-    margin: 0;
-    border-bottom-width: 0;
-  }
-  li {  
-    list-style: none;
-    a {
-      color: #6E7173;
-    }
-  }
-}
-#text-table-of-contents {
-  .toc {
-    padding: 0;
-    margin: 0.5em;
-    line-height: 1.8em;
-  }
-}
-.figure {
-  text-align: center;
-}
